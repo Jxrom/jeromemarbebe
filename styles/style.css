@@ -1,0 +1,142 @@
+html {
+  font-family: "Comfortaa";
+}
+
+.greeting-msg {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+body {
+  background-color: #c2ffc7;
+  margin: 0px;
+}
+
+.heading-info {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+.heading-options {
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 100px;
+  display: flex;
+}
+
+.heading-buttons {
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+#logo {
+  font-family: "Comfortaa";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.turtlebyte-content {
+  padding-top: 80px;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.turtlebyte-text {
+  text-align: left;
+  justify-content: end;
+  align-content: center;
+  padding: 50px;
+}
+
+.turtlebyte-image {
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+#discover-more-button {
+  text-align: right;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.turtlebyte-title {
+  display: flex;
+  gap: 30px;
+}
+
+#project-title {
+  align-content: end;
+}
+
+.about-me {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hobby1 {
+  height: 220px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hobby2 {
+  height: 220px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.firsttwo-hobbies {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 50px;
+}
+
+.skill-section {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+#skill-info {
+  align-content: center;
+  text-align: center;
+  width: 100px;
+  height: 120px;
+  padding: 10px;
+}
+
+.contact-section {
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+article {
+  scroll-margin-top: 160px; /* Adjust to your header height */
+}
