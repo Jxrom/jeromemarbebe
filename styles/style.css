@@ -35,6 +35,15 @@ body {
   font-size: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #logo {
   font-family: "Comfortaa";
   font-size: 30px;
