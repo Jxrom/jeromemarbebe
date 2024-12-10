@@ -184,7 +184,7 @@ article {
   bottom: 0;
   position: sticky;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   width: 300px;
   height: 100px;
   align-content: end;
@@ -192,6 +192,7 @@ article {
   background-color: #94dea5;
   border-radius: 10px;
   font-weight: bold;
+  box-shadow: -5px -10px;
 }
 
 .audio-description {
