@@ -14,9 +14,19 @@ body {
 
 .heading-info {
   background-color: #000;
-  color: white;
-  text-align: center;
   padding: 1px;
+  text-align: center;
+}
+
+.heading-info p {
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  letter-spacing: 0.15em;
+  border-right: 0.15em solid white;
+  display: inline-block;
+  padding: 0 3px;
+  animation: typing 3.5s steps(13, end), blink-caret 0.75s step-end infinite;
 }
 
 .heading-options {
@@ -33,6 +43,25 @@ body {
   margin-left: 100px;
   margin-top: 30px;
   font-size: 12px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
 }
 
 a {
@@ -187,4 +216,60 @@ img:hover {
   100% {
     transform: rotate(0deg);
   }
+}
+
+#bonjour {
+  animation-name: slideInRight;
+  animation-duration: 4s;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+#doing {
+  animation-name: slideInLeft;
+  animation-duration: 4s;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+#myhobby {
+  animation-name: leftRightAnim;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes leftRightAnim {
+  0% {
+    transform: translateX(-20px);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.greeting-msg {
+  overflow: hidden;
 }
