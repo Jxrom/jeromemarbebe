@@ -168,3 +168,23 @@ article {
 .audio-description {
   margin-bottom: 10px;
 }
+
+img:hover {
+  animation-name: shake;
+  animation-duration: 4s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
